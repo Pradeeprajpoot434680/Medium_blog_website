@@ -1,0 +1,1 @@
+export const BACKEND_URL = 'https://backend.2023btcse017.workers.dev'
