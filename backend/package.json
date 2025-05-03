@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "``` npm install npm run dev ```",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20241112.0",
+    "@p434680/medium-comman": "^1.0.0",
+    "@prisma/client": "^5.22.0",
+    "@prisma/extension-accelerate": "^1.2.1",
+    "hono": "^4.6.10",
+    "prisma": "^5.10.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
